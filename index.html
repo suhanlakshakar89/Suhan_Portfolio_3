@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="./assets/letter_4.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhan Portfolio</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            /* important change */
+            min-height: 100vh;
+            /* allows scrolling */
+            padding: 40px 15px;
+            /* prevents touching edges */
+        }
+
+
+        .card {
+            background: #000;
+            width: 100%;
+            max-width: 380px;
+            /* prevents stretching */
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+
+        .card h2 {
+            margin: 10px 0 5px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 25px;
+        }
+
+        /* Link Button */
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #6b5b3e;
+            color: white;
+            text-decoration: none;
+            padding: 15px 18px;
+            border-radius: 10px;
+            margin: 10px 0;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        .link-btn:hover {
+            background: #8a744f;
+            transform: scale(1.03);
+        }
+
+        .link-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .share-icon {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+        .share-icon:hover {
+            opacity: 1;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img src="/assets/Suhan_3.jpeg" class="profile-img">
+        <h2>Suhan Lakshakar</h2>
+        <p>SoftWare Developer | AI-ML Engineer</p>
+
+        <!-- Main Project -->
+        <a href="portfolio.html" target="_blank" class="link-btn" rel="noopener noreferrer">
+            <div class="link-left">
+                <i class="fa-solid fa-globe"></i>
+                Portfolio
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/suhan-lakshakar-478a68249/" target="_blank" rel="noopener noreferrer"
+            class="link-btn">
+            <div class="link-left">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/suhanlakshakar89" target="_blank" rel="noopener noreferrer" class="link-btn">
+            <div class="link-left">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+        <!-- Twitter -->
+        <a href="https://x.com/Suhanlakshakar" target="_blank" rel="noopener noreferrer" class="link-btn">
+            <div class="link-left">
+                <i class="fa-brands fa-x-twitter"></i>
+                Twitter / X
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/i.am.suhan?igsh=cHhhdGg5NmZ2dGl4" target="_blank" rel="noopener noreferrer"
+            class="link-btn">
+            <div class="link-left">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+        <!-- FaceBook -->
+        <a href="https://www.facebook.com/share/1DsbfRV6KB/" target="_blank" rel="noopener noreferrer" class="link-btn">
+            <div class="link-left">
+                <i class="fa-brands fa-facebook"></i>
+                FaceBook
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:sl830.job@gmail.com" class="link-btn">
+            <div class="link-left">
+                <i class="fa-solid fa-envelope"></i>
+                Email
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+        <!-- youtube -->
+        <a href="https://youtube.com/@suhan3835?si=GSEKDH7QWx_0RPfA" target="_blank" rel="noopener noreferrer"
+            class="link-btn">
+            <div class="link-left">
+                <i class="fa-brands fa-youtube"></i>
+                YouTube
+            </div>
+            <i class="fa-solid fa-share share-icon"></i>
+        </a>
+
+
+
+    </div>
+
+</body>
+
+</html>
